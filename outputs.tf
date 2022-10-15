@@ -1,2 +1,4 @@
-# Should contain the output values.
-# https://www.terraform.io/language/values/outputs
+output "workspace_id" {
+  description = "The ID of this Log Analytics workspace."
+  value       = azurerm_log_analytics_workspace.this.id
+}

@@ -1,3 +1,3 @@
-# {provider} {name} Terraform Module
+# Azure Log Analytics Terraform Module
 
-Terraform module which creates {provider} {service} resources.
+Terraform module which creates Azure Log Analytics resources.
