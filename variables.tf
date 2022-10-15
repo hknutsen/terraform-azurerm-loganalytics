@@ -24,3 +24,9 @@ variable "diagnostic_setting_name" {
   type        = string
   default     = "audit-logs"
 }
+
+variable "tags" {
+  description = "A map of tags to assign to the resources."
+  type        = map(string)
+  default     = {}
+}
