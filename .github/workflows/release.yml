@@ -1,0 +1,11 @@
+name: Release
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  release:
+    name: Relase
+    uses: hknutsen/tools/.github/workflows/release-semantic.yml@v1.1.0
